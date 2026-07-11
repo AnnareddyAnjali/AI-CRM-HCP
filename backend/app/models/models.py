@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, Text, Date, ForeignKey
 from sqlalchemy.orm import relationship
 
 from app.database import Base
+from app.models.user import User
 
 
 class HCP(Base):
